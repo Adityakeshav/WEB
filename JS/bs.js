@@ -1,6 +1,6 @@
 let users=["Aditya","Kesha","priya","Suman"];
 
-for (let i =0;i<users.length;i++){
+for (let i =0;;i++){
 	console.log(users[i]);
 }
 
