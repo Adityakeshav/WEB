@@ -66,17 +66,37 @@
 
 // Read file Async Function
 
-const fs=require('fs');
+// const fs=require('fs');
 
-function print(err,data){
-    console.log(data);
+// function print(err,data){
+//     console.log(data);
+// }
+
+// const contents=fs.readFile('a.txt','utf-8',print);
+
+
+// const contents1=fs.readFile('b.txt','utf-8',print);
+
+
+
+// console.log("Done");
+
+
+// #7
+
+function timeout(){
+    console.log("Click the button");
 }
 
-const contents=fs.readFile('a.txt','utf-8',print);
+console.log("Hiii");
 
 
-const contents1=fs.readFile('b.txt','utf-8',print);
+setTimeout(timeout,1000)
 
+console.log("Welcome")
 
-
-console.log("Done");
+let c=0;
+for (let i=0;i<1000000000;i++){
+    c=c+i;
+}
+console.log("Expensive operation done");
