@@ -1,3 +1,5 @@
+// #1
+
 // function sum(a, b) {
 // 	return a + b;
 // }
@@ -6,6 +8,7 @@
 // console.log("Function definition:", sum);
 // console.log("Function output:", ans);
 
+// #2
 
 
 // function sum(n){
@@ -24,8 +27,40 @@
 // console.log(ans2)
 
 
-const fs=require('fs')
+// #3
 
-const contents=fs.readFileSync('a.txt','utf-8')
+// const fs=require('fs')
 
-console.log(contents)
+// const contents=fs.readFileSync('a.txt','utf-8')
+// console.log(contents)
+
+// const contents2=fs.readFileSync('b.txt','utf-8')
+// console.log(contents2)
+
+
+
+// #4
+
+// let ans=0;
+
+// for (let i=0;i<=100000000;i++){
+//     ans=ans+i
+// }
+// console.log(ans)
+
+
+// #5
+
+// const fs =require('fs')
+
+// const contents=fs.readFileSync('a.txt','utf-8')
+// console.log(contents)
+
+// const contents1=fs.readFileSync('b.txt','utf-8')
+// console.log(contents1)
+
+// const contents2=fs.readFileSync('b.txt','utf-8')
+// console.log(contents2)
+
+// #6
+
